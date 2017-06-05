@@ -1,0 +1,113 @@
+{
+  "generator": {
+    "version": "0.6.0",
+    "url": "https://github.com/gre/diaporama-maker",
+    "maker": {
+      "defaultElement": {
+        "kenburns": {
+          "from": [
+            1,
+            [
+              0.5,
+              0.5
+            ]
+          ],
+          "to": [
+            0.75,
+            [
+              0.5,
+              0.5
+            ]
+          ]
+        },
+        "duration": 3000,
+        "transitionNext": {
+          "duration": 1000
+        }
+      }
+    }
+  },
+  "timeline": [
+    {
+      "kenburns": {
+        "easing": [
+          0,
+          0,
+          0.58,
+          1
+        ],
+        "from": [
+          0.42607061577345956,
+          [
+            0.6754385964912281,
+            0.2894736842105263
+          ]
+        ],
+        "to": [
+          0.7205136570986285,
+          [
+            0.43567251461988304,
+            0.4956140350877193
+          ]
+        ]
+      },
+      "duration": 5600,
+      "transitionNext": {
+        "duration": 1000
+      },
+      "image": "01.jpg"
+    },
+    {
+      "kenburns": {
+        "easing": [
+          0.25,
+          0.1,
+          0.25,
+          1
+        ],
+        "from": [
+          0.39082618079759807,
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "to": [
+          0.8774605109619488,
+          [
+            0.5,
+            0.5
+          ]
+        ]
+      },
+      "duration": 4000,
+      "transitionNext": {
+        "duration": 1000
+      },
+      "image": "02.jpg"
+    },
+    {
+      "duration": 3000,
+      "transitionNext": {
+        "duration": 1000
+      },
+      "kenburns": {
+        "from": [
+          1,
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "to": [
+          0.75,
+          [
+            0.5,
+            0.5
+          ]
+        ]
+      },
+      "image": "03.jpg"
+    }
+  ]
+}
